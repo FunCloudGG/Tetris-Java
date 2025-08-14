@@ -16,4 +16,5 @@ I developed it in just 4 days to practice object-oriented programming, basic gam
 ## How to Run
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/Java-Tetris.git
+   git clone https://github.com/FunCloudGG/Tetris-Java.git
+
