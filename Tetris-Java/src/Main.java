@@ -13,7 +13,6 @@ public class Main extends JFrame implements KeyListener {
     private Map<Integer, int[][]> figures = new HashMap<>();
     private Figure currentFigure;
     public static boolean newgame = false;
-    public static int rotationcounter = 0;
     public Main() {
         setTitle("Tetris");
         setSize(240, 460);
@@ -282,7 +281,7 @@ public class Main extends JFrame implements KeyListener {
             });
             timer.start();
 
-            JOptionPane.showMessageDialog(null, "Закрыть?");
+            JOptionPane.showMessageDialog(null, "Close?");
         }
     }
 }
